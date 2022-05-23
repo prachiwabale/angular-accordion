@@ -1,5 +1,5 @@
 export type Menu = {
   name: string;
   active: boolean;
-  submenu: { name: string; url: string }[];
+  submenu: { question: string; answer: string }[];
 };

@@ -20,27 +20,63 @@ export class AppComponent {
       name: 'Front-end',
       active: false,
       submenu: [
-        { name: 'HTML', url: '#' },
-        { name: 'CSS', url: '#' },
-        { name: 'Javascript', url: '#' },
+        {
+          question: 'What is Angular Accordion',
+          answer:
+            'The Angular Accordion is a GUI component for building vertical expandable panels with clickable headers and associated content sections, displayed in a single container. The accordion is commonly used to reduce the need of scrolling across multiple sections of content on a single page.',
+        },
+        {
+          question: 'What is Angular Accordion',
+          answer:
+            'The Angular Accordion is a GUI component for building vertical expandable panels with clickable headers and associated content sections, displayed in a single container. The accordion is commonly used to reduce the need of scrolling across multiple sections of content on a single page.',
+        },
+        {
+          question: 'What is Angular Accordion',
+          answer:
+            'The Angular Accordion is a GUI component for building vertical expandable panels with clickable headers and associated content sections, displayed in a single container. The accordion is commonly used to reduce the need of scrolling across multiple sections of content on a single page.',
+        },
       ],
     },
     {
       name: 'Responsive web',
       active: false,
       submenu: [
-        { name: 'Tablets', url: '#' },
-        { name: 'Mobiles', url: '#' },
-        { name: 'Desktop', url: '#' },
+        {
+          question: 'What is Angular Accordion',
+          answer:
+            'The Angular Accordion is a GUI component for building vertical expandable panels with clickable headers and associated content sections, displayed in a single container. The accordion is commonly used to reduce the need of scrolling across multiple sections of content on a single page.',
+        },
+        {
+          question: 'What is Angular Accordion',
+          answer:
+            'The Angular Accordion is a GUI component for building vertical expandable panels with clickable headers and associated content sections, displayed in a single container. The accordion is commonly used to reduce the need of scrolling across multiple sections of content on a single page.',
+        },
+        {
+          question: 'What is Angular Accordion',
+          answer:
+            'The Angular Accordion is a GUI component for building vertical expandable panels with clickable headers and associated content sections, displayed in a single container. The accordion is commonly used to reduce the need of scrolling across multiple sections of content on a single page.',
+        },
       ],
     },
     {
       name: 'Web Browser',
       active: false,
       submenu: [
-        { name: 'Chrome', url: '#' },
-        { name: 'Firefox', url: '#' },
-        { name: 'Desktop', url: '#' },
+        {
+          question: 'What is Angular Accordion',
+          answer:
+            'The Angular Accordion is a GUI component for building vertical expandable panels with clickable headers and associated content sections, displayed in a single container. The accordion is commonly used to reduce the need of scrolling across multiple sections of content on a single page.',
+        },
+        {
+          question: 'What is Angular Accordion',
+          answer:
+            'The Angular Accordion is a GUI component for building vertical expandable panels with clickable headers and associated content sections, displayed in a single container. The accordion is commonly used to reduce the need of scrolling across multiple sections of content on a single page.',
+        },
+        {
+          question: 'What is Angular Accordion',
+          answer:
+            'The Angular Accordion is a GUI component for building vertical expandable panels with clickable headers and associated content sections, displayed in a single container. The accordion is commonly used to reduce the need of scrolling across multiple sections of content on a single page.',
+        },
       ],
     },
   ];
