@@ -37,7 +37,7 @@
   top: 330px;
   left: 267px;
   width: 1395px;
-  height: 760px;
+  height: 800px;
   /* UI Properties */
   background: #ffffff 0% 0% no-repeat padding-box;
   box-shadow: 0px 3px 6px #00000029;
@@ -60,11 +60,15 @@
 }
 
 .accordion {
-  width: 100%;
-  max-width: 360px;
-  margin: auto;
-  background: #fff;
-  border-radius: 4px;
+  position: relative;
+  top: -50px;
+  left: 500px;
+  width: 1352px;
+  height: 644px;
+  /* UI Properties */
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-radius: 2px;
+  opacity: 1;
 }
 .accordion .menu {
   position: relative;
