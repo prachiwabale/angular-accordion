@@ -26,8 +26,8 @@
           [style.height.px]="menu.active ? submenu.scrollHeight : 0"
         >
           <li *ngFor="let submenu of menu.submenu">
-            <a [href]="submenu.url">{{ submenu.question }}</a>
-            <a [href]="submenu.url">{{ submenu.answer }}</a>
+            <h1>{{ submenu.question }}</h1>
+            <p>{{ submenu.answer }}</p>
           </li>
         </ul>
       </li>

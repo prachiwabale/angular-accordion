@@ -84,23 +84,7 @@
 .accordion img {
   position: absolute;
   top: 17px;
-  left: 10px;
-}
-
-.accordion li i {
-  position: absolute;
-  top: 1.2rem;
-  left: 1rem;
-  color: #595959;
-  transition: all 0.4s ease;
-}
-
-.accordion li.active i.fa-chevron-down {
-  transform: rotate(180deg);
-}
-
-.accordion li.active .menu {
-  color: #b63b4d;
+  left: 7px;
 }
 
 .accordion li.active i {
@@ -108,35 +92,40 @@
 }
 
 .submenu {
-  height: 0;
+  position: relative;
   overflow: hidden;
-  background: #444359;
+  top: 200px;
+  left: -465px;
+  width: 871px;
+  height: 760px;
+  background: #ffffff;
   font-size: 14px;
   transition: height 0.4s ease;
 }
 
-.submenu li {
-  border-bottom: 1px solid #4b4a5e;
-}
+.submenu h1 {
+  position: relative;
+  top: 0px;
+  width: 500px;
+  height: 22px;
+  margin-left: 40px;
+  /* UI Properties */
 
-.accordion li:last-child .submenu {
-  border-radius: 0 0 4px 4px;
+  text-align: left;
+  font: normal normal bold 20px/28px Proxima Nova;
+  letter-spacing: 0px;
+  color: #555555;
 }
+.submenu p {
+  position: relative;
+  top: 59px;
+  left: 0px;
+  width: 871px;
+  height: 18px;
+  /* UI Properties */
 
-.accordion li:last-child .submenu li:last-child {
-  border-bottom: 0;
-}
-
-.submenu a {
-  display: block;
-  text-decoration: none;
-  color: #d9d9d9;
-  padding: 12px;
-  padding-left: 42px;
-  transition: all 0.25s ease-in-out;
-}
-
-.submenu a:hover {
-  background: #b63b4d;
-  color: #fff;
+  text-align: left;
+  font: normal normal normal 16px/28px Proxima Nova;
+  letter-spacing: 0px;
+  color: #888888;
 }
