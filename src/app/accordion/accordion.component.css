@@ -77,7 +77,7 @@
   color: #0070a9;
   opacity: 1;
   padding: 15px 15px 15px 45px;
-  border-bottom: 1px solid #ccc;
+
   cursor: pointer;
   transition: all 0.4s ease;
 }
@@ -98,6 +98,7 @@
   left: -465px;
   width: 871px;
   height: 760px;
+  border-bottom: 1px solid #ccc;
   background: #ffffff;
   font-size: 14px;
   transition: height 0.4s ease;
@@ -105,8 +106,8 @@
 
 .submenu h1 {
   position: relative;
-  top: 0px;
-  width: 500px;
+  top: -25px;
+  width: 871px;
   height: 22px;
   margin-left: 40px;
   /* UI Properties */
@@ -118,14 +119,15 @@
 }
 .submenu p {
   position: relative;
-  top: 59px;
-  left: 0px;
+  top: -45px;
   width: 871px;
   height: 18px;
+  margin-left: 40px;
   /* UI Properties */
 
   text-align: left;
   font: normal normal normal 16px/28px Proxima Nova;
   letter-spacing: 0px;
   color: #888888;
+  margin-bottom: 15px;
 }
