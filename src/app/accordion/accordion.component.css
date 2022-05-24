@@ -1,13 +1,64 @@
 .panel {
-  position: absolute;
   top: 0px;
   left: 0px;
   width: 2025px;
   height: 2517px;
-  /* UI Properties */
   background: #ffffff 0% 0% no-repeat padding-box;
   opacity: 1;
 }
+.panelheader {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 2025px;
+  height: 64px;
+  /* UI Properties */
+  background: #f4f4f4 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+.panelheader > h2 {
+  position: absolute;
+  top: 24px;
+  left: 295px;
+  width: 1041px;
+  height: 40px;
+  /* UI Properties */
+
+  text-align: left;
+  font: normal normal bold 14px/17px Lato;
+  letter-spacing: 0px;
+  color: #00000099;
+  opacity: 1;
+}
+
+.accordionclose {
+  /* Layout Properties */
+  position: absolute;
+  top: 330px;
+  left: 267px;
+  width: 1395px;
+  height: 760px;
+  /* UI Properties */
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  opacity: 1;
+}
+
+.accordionclose > h1 {
+  position: absolute;
+  top: 25px;
+  left: 100px;
+  width: 76px;
+  height: 36px;
+  /* UI Properties */
+
+  text-align: left;
+  font: normal normal normal 32px/20px Proxima Nova;
+  letter-spacing: 0px;
+  color: #555555;
+  opacity: 1;
+}
+
 .accordion {
   width: 100%;
   max-width: 360px;
@@ -15,19 +66,25 @@
   background: #fff;
   border-radius: 4px;
 }
-
 .accordion .menu {
   position: relative;
+  top: 200px;
+  width: 871px;
+  height: 46px;
+  left: -425px;
+  /* UI Properties */
+  letter-spacing: 0px;
+  color: #0070a9;
+  opacity: 1;
   padding: 15px 15px 15px 45px;
-  color: #4d4d4d;
-  font-weight: bold;
   border-bottom: 1px solid #ccc;
   cursor: pointer;
   transition: all 0.4s ease;
 }
-
-.accordion li:last-child .menu {
-  border-bottom: 0;
+.accordion img {
+  position: absolute;
+  top: 17px;
+  left: 10px;
 }
 
 .accordion li i {
@@ -36,11 +93,6 @@
   left: 1rem;
   color: #595959;
   transition: all 0.4s ease;
-}
-
-.accordion li i.fa-chevron-down {
-  right: 1rem;
-  left: auto;
 }
 
 .accordion li.active i.fa-chevron-down {
