@@ -1,3 +1,13 @@
+.panel {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 2025px;
+  height: 2517px;
+  /* UI Properties */
+  background: #ffffff 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
 .accordion {
   width: 100%;
   max-width: 360px;
