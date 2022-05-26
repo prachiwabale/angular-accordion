@@ -1,22 +1,36 @@
-.panel {
+.container {
   top: 0px;
   left: 0px;
   width: 2025px;
   height: 2517px;
+  /* UI Properties */
   background: #ffffff 0% 0% no-repeat padding-box;
   opacity: 1;
 }
-.panelheader {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  width: 2025px;
-  height: 64px;
+.accordion-close {
+  position: relative;
+  top: 330px;
+  left: 267px;
+  width: 1395px;
+  height: 760px;
   /* UI Properties */
-  background: #f4f4f4 0% 0% no-repeat padding-box;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
   opacity: 1;
 }
-.panelheader > h2 {
+
+.accordion-menu {
+  position: absolute;
+  top: 80px;
+  left: 20px;
+  width: 1352px;
+  height: 644px;
+  /* UI Properties */
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-radius: 2px;
+  opacity: 1;
+}
+.container > h2 {
   position: absolute;
   top: 24px;
   left: 295px;
@@ -29,19 +43,6 @@
   font-size: 10px;
   letter-spacing: 0px;
   color: #00000099;
-  opacity: 1;
-}
-
-.container {
-  /* Layout Properties */
-  position: absolute;
-  top: 330px;
-  left: -200px;
-  width: 1395px;
-  height: 800px;
-  /* UI Properties */
-  background: #ffffff 0% 0% no-repeat padding-box;
-  box-shadow: 0px 3px 6px #00000029;
   opacity: 1;
 }
 
@@ -61,23 +62,9 @@
   opacity: 1;
 }
 
-.container {
+.accordion .menu {
   position: relative;
-  top: -50px;
-  left: 500px;
-  width: 1352px;
-  height: 644px;
-  /* UI Properties */
-  background: #ffffff 0% 0% no-repeat padding-box;
-  border-radius: 2px;
-  opacity: 1;
-}
-.container .menu {
-  position: relative;
-  top: 150px;
-  width: 871px;
-  height: 46px;
-  left: 85px;
+
   /* UI Properties */
   letter-spacing: 0px;
   color: #0070a9;
@@ -87,7 +74,7 @@
   cursor: pointer;
   transition: all 0.4s ease;
 }
-.container img {
+.accordion-menu img {
   position: absolute;
   top: 17px;
   left: 7px;
@@ -97,13 +84,10 @@
   color: #b63b4d;
 }
 
-.submenu {
+.accordion-menu .submenu {
   position: relative;
   overflow: hidden;
-  top: 150px;
-  left: 80px;
-  width: 871px;
-  height: 760px;
+
   border-bottom: 1px solid #ccc;
   background: #ffffff;
   font-size: 14px;
