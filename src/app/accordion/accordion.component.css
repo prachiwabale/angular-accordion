@@ -65,8 +65,8 @@
 
 .accordion .menu {
   position: relative;
-
-  /* UI Properties */
+  font-family: proxima-nova, sans-serif;
+  font-size: 20px;
   letter-spacing: 0px;
   color: #0070a9;
   opacity: 1;
@@ -118,7 +118,8 @@
   /* UI Properties */
 
   text-align: left;
-  font: normal normal normal 16px/28px Proxima Nova;
+  font-family: proxima-nova, sans-serif;
+  font-size: 16px;
   letter-spacing: 0px;
   color: #888888;
   margin-bottom: 15px;

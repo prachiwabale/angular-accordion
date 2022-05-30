@@ -23,19 +23,20 @@ export class AppComponent {
       active: false,
       submenu: [
         {
-          question: 'What is Angular Accordion',
+          question:
+            'What is the criteria to be eligible for Monthly Recurring Auto Draft?',
           answer:
-            'The Angular Accordion is a GUI component for building vertical expandable panels with clickable headers and associated content sections, displayed in a single container. The accordion is commonly used to reduce the need of scrolling across multiple sections of content on a single page.',
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
         },
         {
-          question: 'What is Angular Accordion',
+          question: 'What is an authorized user?',
           answer:
-            'The Angular Accordion is a GUI component for building vertical expandable panels with clickable headers and associated content sections, displayed in a single container. The accordion is commonly used to reduce the need of scrolling across multiple sections of content on a single page.',
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehe.',
         },
         {
-          question: 'What is Angular Accordion',
+          question: 'What is online billing?',
           answer:
-            'The Angular Accordion is a GUI component for building vertical expandable panels with clickable headers and associated content sections, displayed in a single container. The accordion is commonly used to reduce the need of scrolling across multiple sections of content on a single page.',
+            ' Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.',
         },
         {
           question: 'What is Angular Accordion',
@@ -118,11 +119,6 @@ export class AppComponent {
       name: 'Administration Guide',
       active: false,
       submenu: [
-        {
-          question: 'What is Angular Accordion',
-          answer:
-            'The Angular Accordion is a GUI component for building vertical expandable panels with clickable headers and associated content sections, displayed in a single container. The accordion is commonly used to reduce the need of scrolling across multiple sections of content on a single page.',
-        },
         {
           question: 'What is Angular Accordion',
           answer:
