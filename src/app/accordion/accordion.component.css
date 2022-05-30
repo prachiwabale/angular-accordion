@@ -29,6 +29,7 @@
   background: #ffffff 0% 0% no-repeat padding-box;
   border-radius: 2px;
   opacity: 1;
+  overflow: auto;
 }
 .container > h2 {
   position: absolute;
